@@ -22,8 +22,8 @@ const FileUpload = ({ setComparisonResult }) => {
 
   // Function to read contents of selected files using the FileReader API.
   const readFiles = (selectedFiles) => {
-    const reader1 = new FileReader(); // Create FileReader for the first file.
-    const reader2 = new FileReader(); // Create FileReader for the second file.
+    const reader1 = new FileReader(); 
+    const reader2 = new FileReader(); 
 
     // When the first file is read, update the state to reflect its contents.
     reader1.onload = () => {
